@@ -1,0 +1,18 @@
+.Pokedex-container {
+  margin: 5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2em;
+}
+
+.Pokdex {
+  text-align: center;
+}
+
+.Pokdex-win {
+  color: green;
+}
+
+.Pokdex-lose {
+  color: red;
+}
