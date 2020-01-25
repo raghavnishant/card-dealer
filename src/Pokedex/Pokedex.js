@@ -10,16 +10,12 @@ export default class Pokedex extends Component {
     return (
       <div className="Pokdex">
         {this.props.Wincheck ? (
-          <div className="Pokdex-win">
-            <h2>Winning Hand</h2>
-            <p>Total {this.props.tot}</p>
-          </div>
+          <h2 className="Pokdex-win">Winning Hand</h2>
         ) : (
-          <div className="Pokdex-lose">
-            <h2>Lossing Hand</h2>
-            <p>Total {this.props.tot}</p>
-          </div>
+          <h2 className="Pokdex-lose">Lossing Hand</h2>
         )}
+
+        <h4>Total Experince: {this.props.tot}</h4>
         <div className="Pokedex-container">
           {this.props.pokemons.map(pokemon => {
             return <PokeCard pokemon={pokemon} key={pokemon.id} />;
