@@ -1,5 +1,7 @@
 import React from "react";
-import TodoList from "./TodoList/TodoList";
+import Deck from "./DeckOfCards/Deck";
+// import TodoList from "./TodoList/TodoList";
+// import LifeCycle from "./LifeCycle/LifeCycle";
 // import BoxList from "./CreateBox/BoxList";
 // import ColorBox from "./ColorBox/ColorBox";
 // import CoinFlipper from "./CoinFlipper/CoinFlipper";
@@ -23,7 +25,11 @@ export default function App() {
 
       {/* <BoxList /> */}
 
-      <TodoList />
+      {/* <TodoList /> */}
+
+      {/* <LifeCycle /> */}
+
+      <Deck />
     </div>
   );
 }
