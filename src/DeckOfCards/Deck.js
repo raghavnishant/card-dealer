@@ -8,8 +8,6 @@ const DECK_API =
 
 const CARD_API = "https://deckofcardsapi.com/api/deck/";
 
-//${deck_id}/draw/
-
 export default class Deck extends Component {
   constructor(props) {
     super(props);
